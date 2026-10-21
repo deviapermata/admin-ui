@@ -8,9 +8,26 @@ function Exercise() {
       </h1>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-        <UserCard />
-        <UserCard />
-        <UserCard />
+        <UserCard
+          name="Devia"
+          email="devia@gmail.com"
+          street="Jl. Pandanaran"
+          city="Semarang"
+        />
+
+        <UserCard
+          name="Lula"
+          email="lula@gmail.com"
+          street="Jl. Indraprasta"
+          city="Ungaran"
+        />
+
+        <UserCard
+          name="Aya"
+          email="aya@gmail.com"
+          street="Jl. Pemuda"
+          city="Kendal"
+        />
       </div>
     </div>
   );
